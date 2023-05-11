@@ -14,7 +14,7 @@ class _StartedPageState extends State<StartedPage> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Color(0xfffef7f3),
+      backgroundColor: const Color(0xfffef7f3),
       body: SafeArea(
         child: Column(
           children: [
@@ -73,7 +73,7 @@ class _StartedPageState extends State<StartedPage> {
                     child: Container(
                       height: 56,
                       decoration: BoxDecoration(
-                        color: Color(0xffae2d3e),
+                        color: const Color(0xffae2d3e),
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: const Center(

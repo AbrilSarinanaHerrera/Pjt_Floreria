@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: const Color(0xffbc687d),
         centerTitle: true,
       ),
-      backgroundColor: Color(0xfffef7f3),
+      backgroundColor: const Color(0xfffef7f3),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         iconSize: 24,
@@ -144,7 +144,7 @@ class _HomePageState extends State<HomePage> {
                       height: 35,
                       padding: const EdgeInsets.all(8.0),
                       decoration: BoxDecoration(
-                          color: Color(0xff87242c),
+                          color: const Color(0xff87242c),
                           borderRadius: BorderRadius.circular(12.0)),
                       child: const Center(
                         child: Text(
